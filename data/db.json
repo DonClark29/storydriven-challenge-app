@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "Almonds, Unsalted, in the blue bag"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "Pizza"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "Bread"
+    }
+  ],
+
+  "images": [
+    {
+      "id": 0,
+      "name": "Hero",
+      "url": "../images/MCDS_Web_Residences_hero2.jpg",
+      "alt": "woman on balcony"
+    },
+    {
+      "id": 1,
+      "name": "Slider Image 1",
+      "url": "../images/MCDS_Web_Residences_3_InteriorRendering.jpg",
+      "alt": "mar a cielo"
+    },
+    {
+      "id": 2,
+      "name": "Slider Image 2",
+      "url": "../images/MCDS_Web_Residences_2_InteriorRendering.jpg",
+      "alt": "living room"
+    },
+    {
+      "id": 3,
+      "name": "Slider Image 3",
+      "url": "../images/MCDS_Web_Residences_livingroom.jpg",
+      "alt": "living room with coastal view"
+    },
+    {
+      "id": 4,
+      "name": "Slider 2 Image 1",
+      "url": "../images/MCDS_Web_Residences_siteplan.svg",
+      "alt": "sunny landscape of mar a cielo"
+    },
+    {
+      "id": 5,
+      "name": "Slider 2 Image 2",
+      "url": "../images/MCDS_Web_Residences_view03c.jpg",
+      "alt": "green landscape of mar a cielo"
+    },
+    {
+      "id": 6,
+      "name": "Full Width Image",
+      "url": "../images/MCDS_Web_Residences_couple_sunset.jpg",
+      "alt": "couple on beach"
+    },
+    {
+      "id": 7,
+      "name": "Wind Icon",
+      "url": "../images/MCDS_Web_Residences_wind.svg",
+      "alt": "wind icon"
+    },
+    {
+      "id": 8,
+      "name": "Patio view",
+      "url": "../images/MCDS_Web_Residences_terrace3.jpg",
+      "alt": "view of decorated patio"
+    },
+    {
+      "id": 9,
+      "name": "form background",
+      "url": "../images/MCDS_TeaserWeb_formBG.jpg",
+      "alt": "gold overlay of coast"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.img-full-width {
+  width: 100%;
+  overflow: hidden;
+  background: #9b9d8e;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    min-height: 100%;
+  }
+  @media (min-width: 768px) {
+    min-height: 300px;
+  }
+}

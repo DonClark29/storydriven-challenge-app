@@ -1,0 +1,111 @@
+@import "../../colors.scss";
+
+.register-form {
+  padding-top: 50px;
+  padding-bottom: 75px;
+  background-size: cover;
+  h2 {
+    font-size: 30px;
+    color: $white-400;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 20px;
+    color: $black-400;
+    margin-bottom: 30px;
+  }
+  form {
+    font-family: "Lato", sans-serif;
+    position: relative;
+    margin-bottom: 30px;
+    .form-field {
+      width: 100%;
+      &.left {
+        padding: 10px 0px 10px 0px;
+      }
+
+      &:not(.left) {
+        padding: 10px 0px 10px 0px;
+      }
+      label {
+        display: none;
+      }
+      &.radio {
+        text-align: left;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        // display: flex;
+        // justify-content: flex-start;
+        // font-size: 16px;
+        // margin-right: 20px;
+        p {
+          display: inline-block;
+          font-size: 16px;
+          margin-bottom: 0px;
+          margin-right: 25px;
+        }
+        input {
+          display: inline-block;
+          width: auto;
+          margin-right: 6px;
+        }
+        label {
+          display: inline-block;
+          text-transform: uppercase;
+          margin-right: 20px;
+        }
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 6px 15px;
+        font-size: 14px;
+        line-height: 2;
+      }
+    }
+  }
+
+  .privacy {
+    color: $white-400;
+    margin-bottom: 35px;
+    font-size: 13px;
+  }
+  button {
+    text-transform: uppercase;
+    padding: 5px 25px;
+    background: unset;
+    border: 1px solid #fff;
+    color: #fff;
+    &:hover {
+      background-color: #fff;
+      color: $black-400;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+
+    form {
+      float: left;
+      .form-field {
+        width: 50%;
+        &.left {
+          padding: 10px 15px 10px 0px;
+          float: left;
+        }
+
+        &:not(.left) {
+          padding: 10px 0px 10px 15px;
+          float: right;
+        }
+      }
+    }
+  }
+}

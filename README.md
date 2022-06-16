@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# All comments and code for this website was built within the 4hr time limit dictated in the challenge's readme file.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My ideas and items completed are marked below:
 
-## Available Scripts
+# The REST API
 
-In the project directory, you can run:
+JSON formatted to mimic an API that would not only retrieve the image url but an entire image object that includes various meta data like the alt text.
 
-### `npm start`
+JSON-Server was used to allow realistic API usage on local environment with quick setup.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Animations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Animtions completed with "Animation on Scroll" library.
 
-### `npm test`
+### Bootstrap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bootstrap framework was used to quickly build sliders and reversible column layouts with mostly classes so that readabiilty is improved.
 
-### `npm run build`
+#### Component Reusability & SCSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+All components made to be reusable and customizable to allow for various layouts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Scss neatly organized to individual components. Only Typography and color theming is placed into the global App.scss. All website colors located in one colors.scss file and colors are imported to individual scss files when needed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### Running The Project Locally
 
-### `npm run eject`
+To run this site locally use `npm install` for the dependencies and node modules.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start the JSON Server with `npx json-server -w data/db.json -p 3500`. Port (3500) needs to be different from your default localhost.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then use `npm start` in the terminal and the react site will load in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+###### Things to improve
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Completing the Nav & Footer ( duh )
+2. Improve organization of the JSON data. Ideally, without the limitations of the challenge, I would place all content into a CMS and the data through a pre-existing API.
+3. Utilize react-bootstrap library to reduce page load.
+4. Minify images & use .webp formats for users with compatible browsers.
+5. Proper loading animation, currently just static loading text.

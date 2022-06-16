@@ -1,0 +1,35 @@
+@import "../../colors.scss";
+.slider {
+  .carousel-item img {
+    min-height: 200px;
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    min-height: 100%;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    opacity: 1;
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      width: 5rem;
+      height: 5rem;
+      color: $white-400;
+      filter: drop-shadow(2px 4px 0 rgba(0, 0, 0, 0.3));
+    }
+  }
+
+  .carousel-indicators {
+    button {
+      filter: drop-shadow(2px 4px 0 rgba(0, 0, 0, 0.3));
+      width: 50px;
+      height: 5px;
+      color: $white-400;
+      opacity: 1;
+    }
+    .active {
+      background-color: $gold-400;
+    }
+  }
+}
